@@ -1,6 +1,6 @@
 # MMA Event Website
 
-Welcome to the repository for the MMA Event Hackathon Website, a multi-disciplinary hackathon that brings together enthusiasts and experts from various computer science fields. Each octagon in this event represents a unique domain, ranging from Artificial Intelligence (AI) to Web Development, User Interface (UI), Design, and more.
+Welcome to the repository for the MMA Hackathon Event  Website, a multi-disciplinary hackathon that brings together enthusiasts and experts from various computer science fields. Each octagon in this event represents a unique domain, ranging from Artificial Intelligence (AI) to Web Development, User Interface (UI), Design, and more.
 
 ## About MMA Event Hackathon
 
