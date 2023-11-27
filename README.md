@@ -23,7 +23,7 @@ MMA Event is not just your typical hackathon; it's a convergence of minds and sk
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/mma-event-hackathon.git
+   git clone https://github.com/TurkiHaris/MMA-Event-Website.git
 
 2. Navigate to the project directory::
 
