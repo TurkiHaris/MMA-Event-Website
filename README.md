@@ -24,3 +24,12 @@ MMA Event is not just your typical hackathon; it's a convergence of minds and sk
 
    ```bash
    git clone https://github.com/your-username/mma-event-hackathon.git
+
+2. Navigate to the project directory::
+
+   ```bash
+   cd mma-event-hackathon
+
+3. Open the **index.html** file in your preferred web browser to explore the website locally.
+   
+
