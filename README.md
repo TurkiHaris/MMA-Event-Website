@@ -28,8 +28,20 @@ MMA Event is not just your typical hackathon; it's a convergence of minds and sk
 2. Navigate to the project directory::
 
    ```bash
-   cd mma-event-hackathon
+   cd MMA-Event-Website
 
 3. Open the **index.html** file in your preferred web browser to explore the website locally.
+
+## Contributing
+
+We welcome contributions from the community to enhance the MMA Event Website. If you have ideas for new features, improvements, or bug fixes, feel free to submit a pull request. For major changes, please open an issue to discuss the proposed changes first.
+
+## License
+
+This project is licensed under the MIT License.
+
+Thank you for being a part of the MMA Event ! We look forward to seeing your octagon shine in the world of computer science. Happy hacking!
+
+
    
 
