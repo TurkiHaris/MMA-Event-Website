@@ -25,7 +25,7 @@ MMA Event is not just your typical hackathon, it's a convergence of minds and sk
    ```bash
    git clone https://github.com/TurkiHaris/MMA-Event-Website.git
 
-2. Navigate to the project directory::
+2. Navigate to the project directory:
 
    ```bash
    cd MMA-Event-Website
@@ -38,7 +38,7 @@ We welcome contributions from the community to enhance the MMA Event Website. If
 
 ## License
 
-This project is licensed under the <a name="https://github.com/TurkiHaris/MMA-Event-Website/blob/main/LICENSE">MIT License</a>.
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
 
 Thank you for being a part of the MMA Event ! We look forward to seeing your octagon shine in the world of computer science. Happy hacking!
 
