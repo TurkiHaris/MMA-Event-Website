@@ -38,7 +38,7 @@ We welcome contributions from the community to enhance the MMA Event Website. If
 
 ## License
 
-This project is licensed under the [MIT License]([https://choosealicense.com/licenses/mit/](https://github.com/TurkiHaris/MMA-Event-Website/blob/main/LICENSE))
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/](https://github.com/TurkiHaris/MMA-Event-Website/blob/main/LICENSE)
 
 Thank you for being a part of the MMA Event ! We look forward to seeing your octagon shine in the world of computer science. Happy hacking!
 
