@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    color: white;
+   font-family: roboto_light;
+}
+
+@font-face {
+    font-family: lemon_milk;
+    src: url(../fonts/lemon_milk/LEMONMILK-Bold.otf);
+}
+
+@font-face {
+    font-family: roboto_light;
+    src: url(../fonts/roboto/roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: roboto_bold;
+    src: url(../fonts/roboto/roboto-Bold.ttf);
+}
+
+.container{
+    background-image: url(images/background.png);
+    background-color: #132432;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* navigation bar style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+
+#logo img {
+    width: 100px; 
+    height: auto;
+}
+
+.nav-items{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items li {
+    margin: 0 15px;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/*  hero section style*/
+#hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#hero-section h1,
+#hero-section h2,
+#hero-section p,
+#hero-section button {
+  margin-bottom: 2%; 
+}
+
+#hero-section h1{
+    margin-top: 5%;
+    font-size: 3em;
+}
+
+h1{
+    font-family: lemon_milk;
+}
+
+.red-title{
+    color: #A81719;
+    font-family: lemon_milk;
+}
+
+
+/* button style*/
+.button-50 {
+    background-color: #A81719;
+    border: 1px solid #A81719;
+    box-shadow: #123432 4px 4px 0 0,#A81719 4px 4px 0 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .button-50:focus {
+    text-decoration: none;
+  }
+  
+  .button-50:hover {
+    text-decoration: none;
+  }
+  
+  .button-50:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .button-50:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #A81719 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-50 {
+      padding: 12px 50px;
+    }
+  }
+
+#button-two{
+    font-family: roboto_bold;
+    font-size: 1.3em;
+}
+
+#button-one{
+  padding: 8px 30px;
+}
+
+/* Add media query for smaller screens */
+@media (max-width: 767px) {
+  nav {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .nav-items {
+      margin-top: 20px;
+      justify-content: flex-start;
+  }
+
+  #hero-section h1 {
+      font-size: 2em;
+  }
+
+  #button-one,
+  #button-two {
+      padding: 12px 30px;
+  }
+}
