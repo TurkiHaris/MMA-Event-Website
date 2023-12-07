@@ -20,7 +20,7 @@
 }
 
 .container{
-    background-image: url(images/background.png);
+    background-image: url(../images/background.png);
     background-color: #132432;
     background-size: cover;
     height: 100vh;
