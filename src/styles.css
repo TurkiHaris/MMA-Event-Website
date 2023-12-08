@@ -43,6 +43,7 @@ nav{
 .nav-items{
     list-style-type: none;
     display: flex;
+    font-family: roboto_light
 }
 
 .nav-items li {
