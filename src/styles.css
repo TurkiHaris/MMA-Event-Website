@@ -41,9 +41,9 @@ nav{
 }
 
 .nav-items{
+    font-family: lemon_milk;
     list-style-type: none;
     display: flex;
-    font-family: roboto_light
 }
 
 .nav-items li {
