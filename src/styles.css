@@ -41,7 +41,6 @@ nav{
 }
 
 .nav-items{
-    font-family: lemon_milk;
     list-style-type: none;
     display: flex;
 }
