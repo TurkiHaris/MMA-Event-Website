@@ -148,6 +148,7 @@ h1{
 
 /* Add media query for smaller screens */
 @media (max-width: 767px) {
+
   nav {
       flex-direction: column;
       align-items: flex-start;
@@ -166,6 +167,46 @@ h1{
   #button-two {
       padding: 12px 30px;
   }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nav-items {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-top: 0;
+      padding: 0;
+  }
+
+  .nav-items li {
+      margin: 8px 0;
+  }
+
+
+  #hero-section h1 {
+    font-size: 1.5em;
+    margin-top: 10%;
+}
+
+#hero-section h1 span {
+  display: inline;
+}
+  #hero-section h2 {
+    font-size: 1.2em;
+}
+
+  .button-50 {
+      width: auto;
+      padding: 10px 20px;
+  }
+  .container {
+    background-color: #132432;
+    background-size: cover;
+    background-position: center;
+}
 }
 
 /*media queries */
@@ -185,6 +226,8 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #132432;
+    background-size: cover;
   }
   .nav-items {
       flex-direction: column;
@@ -197,6 +240,7 @@ h1{
   .nav-items li {
       margin: 8px 0;
   }
+
 
   #hero-section h1 {
     font-size: 1.5em;
@@ -214,12 +258,41 @@ h1{
       width: auto;
       padding: 10px 20px;
   }
-  .container {
-    background-image: url(../images/background.png);
-    background-color: #132432;
-    background-size: cover;
-    background-position: center;
+ 
 }
 
+@media (min-width: 1367px) {
+
+.nav-items li a {
+  text-decoration: none;
+  font-size: 1.5em;
+  margin: 0 17px;
+}
+
+#hero-section h1{
+  margin-top: 7%;
+  font-size: 4em;
+}
+
+#hero-section h2{
+  font-size: 2em;
+}
+
+#hero-section p{
+  font-size: 1.5em;
+}
+
+#logo img {
+  max-width: 100px; 
+}
+
+.button-50{
+  font-size: 1.5em;
+}
+
+#button-one{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
 }
