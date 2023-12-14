@@ -93,13 +93,12 @@ nav{
   display: inline-block; 
 }
 
-h1{
+h1, h1 span{
     font-family: lemon_milk;
 }
 
 .red-title{
     color: #A81719;
-    font-family: lemon_milk;
 }
 
 
@@ -333,6 +332,7 @@ h1{
   justify-content: center;
   align-items: flex-start;
   padding: 20px;
+  margin-bottom: 5.5%;
 }
 .cards img {
   margin:20px;
@@ -347,4 +347,51 @@ h1{
     font-size: 1.5em;
     margin-top: 4%;
    } 
+}
+
+
+/* about section :*/
+.about-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6%;
+}
+
+.about-section h1{
+  margin-bottom: 2%;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+video{
+  height:250px;
+  width: 400px;
+  margin-left: 20px;
+  border: #A81719 solid 3px;
+  border-radius: 10px;
+}
+
+#about{
+  margin-right: 20px;
+}
+
+@media (max-width: 767px){
+  .content{
+    flex-direction: column;
+   }
+
+   video{
+    margin-top: 30px;
+   }
+}
+
+@media (max-width: 500px){
+   video{
+    display: none;
+   }
 }
