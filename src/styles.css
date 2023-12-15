@@ -386,13 +386,11 @@ video{
  line-height: normal; 
  font-family: lemon_milk;
 }
-
 .agenda .group-12 
 {
-  padding-left: 48.7%;
   position: relative;
-  width: 49px;
-  height: 19px;
+  width: 95%;
+  height: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
