@@ -352,6 +352,83 @@ video{
 }
 
 
+/*Agenda*/
+.agenda{
+  margin-top:20px ;
+  display: flex;
+  min-height: 85vh;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 12px;
+  justify-content: center;
+  margin-right: 155px;
+  margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+.agenda h1{
+  margin-top: 4%;
+  margin-bottom: 2%;
+  font-size: 40px;
+ font-style: normal;
+ font-weight: 500;
+ line-height: normal; 
+ font-family: lemon_milk;
+ }
+
+
+.agenda .text-wrapper-15 {
+  margin-top: 4%;
+  margin-bottom: 2%;
+  font-size: 40px;
+ font-style: normal;
+ font-weight: 500;
+ line-height: normal; 
+ font-family: lemon_milk;
+}
+
+.agenda .group-12 
+{
+  padding-left: 48.7%;
+  position: relative;
+  width: 49px;
+  height: 19px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 20px;
+  cursor: pointer;
+
+}
+
+.agenda .ellipse 
+{
+  background-color: #a81719;
+  position: relative;
+  width: 19px;
+  height: 19px;
+  border-radius: 9.5px;
+}
+
+.agenda .ellipse-2 {
+  background-color: #f7f7f8;
+  position: relative;
+  width: 19px;
+  height: 19px;
+  border-radius: 9.5px;
+}
+
+.hide
+{
+  display: none;
+}
+
+
+
+
+
+/*-----*/
+
 /* contact */
 
 .contacts {
