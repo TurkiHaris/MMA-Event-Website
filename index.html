@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="./src/typing.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>MULTIFIELDS MASTERY ARENA</title>
 </head>
 <body>
-
     <div class="container">
         <div id="nav-bar">
             <nav>
@@ -16,57 +16,147 @@
                     <a href="index.html"><img  src="./images/logo.png" alt="Logo"></a>
                 </div>
                 <ul class="nav-items">
-                    <li><a href="#">Home</a> 
-                    <li><a href="#">About</a>
-                    <li><a href="#">Pré-tarinings</a>
-                    <li><a href="#">Agenda</a>
-                    <li><a href="#">FAQ</a>
-                    <li><a href="#">Contact</a>
+                    <li><a href="#hero-section">Home</a> 
+                    <li><a href="#about99">About</a>
+                    <li><a href="#pretrainings99">Pre-tarinings</a>
+                    <li><a href="#agenda99">Agenda</a>
+                    <li><a href="#contact99">Contact</a>
                 </ul>
                 <div id="register-btn">
                     <button class="button-50" id="button-one">Register </button>
                 </div>
             </nav>
         </div>
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src=".//images//Logomma.png" width="80px" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">MMA AI Assisstant</h4>
+                    <p class="chatbox__description--header">Hi. I am the MMA AI assisstant of the event , How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input class="input_text" type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button"><i class="fa-solid fa-paper-plane sending"></i></button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src=".//images//chat-icon.png"/></button>
+        </div>
+    </div>
+    <section>
         <div id="hero-section">
-            <h1>multifields <span class="red-title">mastery</span> arena</h1>
-            <h2>slogan</h2>
-            <p><i class="fa-solid fa-location-dot fa-lg" style="color: #A81719 "></i>&nbsp;&nbsp;&nbsp;event's place</p>
-            <p><i class="fa-solid fa-calendar-days fa-lg" style="color: #A81719"></i>&nbsp;&nbsp;&nbsp;15 February 2023</p>
+            <h1 class="fade-In">multifields <span class="red-title">mastery</span> arena</h1>
+            <h2 class="fade-Up">Code and <span class="red-title">Combat</span>: Unleash Your Skills in the Digital Arena with MMA – Where <span class="red-title">Programming</span> Meets <span class="red-title">Mastery!</span></h2>
+            <div class="date-location">
+                <p class="fade-Down-1"><i class="fa-regular fa-calendar-days"></i>&nbsp;&nbsp;&nbsp;15 February 2023</p>
+                <p class="fade-Down-2"><i class="fa-solid fa-location-dot fa-lg" "></i><a href="https://www.google.com/maps/place/Complexe+ZEVAGO/@36.7128248,3.1340018,15z/data=!4m2!3m1!1s0x0:0x3049bdc3580d5fb2?sa=X&ved=2ahUKEwizjqmpkZCDAxUThP0HHXRXD00Q_BJ6BAhBEAA">&nbsp;&nbsp;Complexe ZEVAGO, El Harrach, Algeria</a></p>
+            </div>
             <button class="button-50" role="button" id="button-two">REGISTER NOW</button>
         </div>
-    </div>
-
-    <div class="about-section">
-        <h1>about</h1>
-        <div class="content">
-            <div id="about">
-                <h1>what's <span class="red-title">mma</span></h1>
-                <p>(<span class="red-title">M</span>ultifields <span class="red-title">M</span>astery <span class="red-title">A</span>rena)</p>
-                <br> 
-                <p>Le MMA, acronyme de "MultiFields Mastery Arena", est un hackathon de trois jours qui fusionne différents domaines de l'informatique et du problem- solving dans l'atmosphère dynamique des sports de combat, plus spécifiquement les arts martiaux mixtes (Mixed Martial Arts - MMA).</p>
-            </div>
-            <div id="teaser">
-                <video width="640" height="360" controls>
-                    <source src="./images/teaser.avi" type="video/avi">
-                    Your browser does not support the video tag.
-                </video>
+        <div id="about99" class="about-section">
+            <h1>about</h1>
+            <div class="content">
+                <div id="about" class="fade-In-2">
+                    <h1 class="title-about">what's <span class="red-title">mma</span></h1>
+                    <p class="MMA-small">(<span class="red-title">M</span>ultifields <span class="red-title">M</span>astery <span class="red-title">A</span>rena)</p>
+                    <br> 
+                    <p class="about-description">Le MMA, acronyme de "MultiFields Mastery Arena", est un hackathon de trois jours qui fusionne différents domaines de l'informatique et du problem- solving dans l'atmosphère dynamique des sports de combat, plus spécifiquement les arts martiaux mixtes (Mixed Martial Arts - MMA).</p>
+                </div>
+                <div id="teaser">
+                    <video width="640" height="360" controls>
+                        <source src="./video/teaser.mp4" type="video/mp4">
+                    </video>
+                </div>
             </div>
         </div>
-    </div>
-   
-    <div class="container-two">
-        <h1>Pre-<span class="red-title">trainings</span></h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto ex facere dolorum laboriosam dolores non ab porro? Unde culpa voluptas repudiandae reiciendis temporibus fuga quam beatae ex sunt, inventore perferendis?</p>
-        <div class="cards">
-            <img src="images/card1.png" alt="card1">
-            <img src="images/card2.png" alt="card2">
-            <img src="images/card3.png" alt="card3">
-            <img src="images/card4.png" alt="card4">
+        <div id="pretrainings99" class="container-two fade-Down-2">
+            <h1>Pre-<span class="red-title">trainings</span></h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto ex facere dolorum laboriosam dolores non ab porro? Unde culpa voluptas repudiandae reiciendis temporibus fuga quam beatae ex sunt, inventore perferendis?</p>
+            <div class="cards">
+                <img src="images/card1.png" alt="card1">
+                <img src="images/card2.png" alt="card2">
+                <img src="images/card3.png" alt="card3">
+                <img src="images/card4.png" alt="card4">
+            </div>
         </div>
-    </div>
 
-</div>
+        <div id="agenda99" class="agenda container-A fade-Up">
+            <h1><span class="red-title">MMA</span>'S AGENDA</h1>
+            <div class="text-wrapper-15">DAY 01</div>
+            <img class="image-day-1" src="images/day1.png" alt="">
+
+            <div class="group-12">
+                <div class="ellipse" ></div>
+                <div class="ellipse-2" id="load-more"></div>
+            </div>
+            
+        </div>
+
+
+        <div class="agenda container-B fade-Up hide">
+            <h1><span class="red-title">MMA</span>'S AGENDA</h1>
+            <div class="text-wrapper-15">DAY 02</div>
+            <img class="image-day-1" src="images/day2.png" alt="">
+
+            <div class="group-12">
+                <div class="ellipse-2" id="load-more-2"></div>
+                <div class="ellipse"></div>
+            </div>
+        </div>
+        
+        <div id="contact99" class="contacts">
+        
+            <div class="title-contact fade-Down-2">
+                    <div class="logos">
+                    <img src="images/logo cse.png" alt="logocse">
+                    <div><H1 > CONTACT US </H1></div> 
+                    <img src="images/Logomma.png" alt="logomma">
+                    </div>
+            </div>
+                   <div class="text-contact fade-Down-2">
+                   <p>By email <span class="red-title">cse@esi.dz</span>  or on social media</p>
+                   </div>
+            
+            
+          <div class="reseau fade-Up">
+            <address>   
+                    <a href="" class="icon icon--instagram">
+                        <img src="images/FB.png" alt="insta">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://www.instagram.com/cse.club/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" class="icon icon--twitter">
+                        <img src="images/Insta.png" alt="insta">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+                    <a href="" class="icon icon--linkedin">
+                      <img src="images/X.png" alt="insta">  
+                      <i class="ri-linkedin-line"></i>
+                    </a>
+                    <a href="" class="icon icon--facebook">
+                        <img src="images/YT.png" alt="insta">
+                        <i class="ri-facebook-line"></i>
+                      </a>
+                      <a href="" class="icon icon--facebook">
+                        <img src="images/Lin.png" alt="insta">
+                        <i class="ri-facebook-line"></i>
+                      </a>
+                    
+            </address>
+        
+           </div> 
+          </div>
+        </section>  
+    </div>
+<script defer src="./app.js"></script>
+<script defer src="./app2.js"></script>
 </body>
 </html>
 
