@@ -385,11 +385,18 @@ video{
     width: 140px;
 }
        .icon {
-        width: 20px;
-        height: 20px;
-        margin-right: 10px;
-        margin-left: 10px; 
-        }
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 27%;
+  outline: 2px solid #fff;
+  transition-property: outline-offset, outline-color;
+  transition-duration: 0.25s;
+  margin-right: 35px;
+  margin-left: 35px; 
+  margin-bottom: 30px;
+  justify-content: center;
+  }
 }
 
 
